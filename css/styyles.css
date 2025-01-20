@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Montserrat", serif;
     margin: 0;
 }
@@ -11,33 +11,37 @@ body{
 
 .main-page-text-container {
     border-radius: 40px;
-background: #fff;
-padding-top: 60px; 
-padding-right: 60px;
-padding-left: 60px;
-padding-bottom: 60px;
-box-sizing: border-box;
+    background: #fff;
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
 }
 
 .wrapper {
     margin: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 1170px;
     position: relative;
 }
 
+.gus-img {
+    width: 50%;
+    align-self: flex-end;
+}
 
 
-.main-page-hello-text
-{
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 150%;
-        color: #1b1d1f;
-        margin-top: 0;
-        margin-bottom: 60px;
+
+.main-page-hello-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 60px;
 }
 
 
@@ -73,21 +77,21 @@ box-sizing: border-box;
 }
 
 .goit-logo {
-    position: absolute;
-    top: 32px;
-    left: 0px;
+    position: static;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        align-self: flex-start;
+    }
 
-
-}
 
 
 .facts-title {
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 150%;
-        color: #1b1d1f;
-        margin-bottom: 32px;
-        margin-top: 0px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-bottom: 32px;
+    margin-top: 0px;
 
 }
 
@@ -98,49 +102,55 @@ box-sizing: border-box;
     text-align: center;
 }
 
-.facts-trezub{
+.facts-trezub {
     margin-bottom: 24px;
 }
 
 
 .facts-descr {
     font-family: "Montserrat", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: #1b1d1f;
-        width: 772px;
-        margin: auto;
-        margin-top: 0px;
-        margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    width: 772px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 24px;
 
 }
 
- .facts-item-title {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 100%;
-        text-align: center;
-        color: #1b1d1f;
-        margin-top: 0;
-        margin-bottom: 32px;
- }
+.facts-item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
 
 
 .facts-item-descr {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: center;
-        color: #1b1d1f;
-        margin-top: 0;
-        margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
 .facts-item {
-    width: calc((100% / 3) - (24px * 2) / 3);
+    width: 30%;
+}
+
+
+
+.facts-item-imgg {
+    width: 100%;
 }
 
 .form-container {
@@ -167,27 +177,27 @@ box-sizing: border-box;
 
 
 .form-trezub {
-    margin-bottom: 32px; 
+    margin-bottom: 32px;
 }
 
 
 .form-title {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 100%;
-        color: #1b1d1f;
-        margin-top: 0;
-        margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
 
 
 .form-descr {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #1b1d1f;
-        margin-top: 0;
-        margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 
@@ -201,11 +211,11 @@ box-sizing: border-box;
 
 
 .form-field-label {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #1b1d1f;
-        margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-bottom: 8px;
 }
 
 
@@ -217,31 +227,31 @@ box-sizing: border-box;
 .form-input {
     border: 1px solid #005bbb;
     border-radius: 8px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #1b1d1f;
-        padding-right: 24x;
-        padding-left: 24px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        box-sizing: border-box;
-        width: 100%;
-} 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    padding-right: 24x;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
 
 .form-btn {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #fff;
-        cursor: pointer;
-        padding-right: 24px;
-        padding-left: 24px;
-        padding-top: 12px;
-        padding-bottom: 12px;
-        background: rgba(255, 107, 10, 0.73);
-        border-radius: 8px;
-        border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    cursor: pointer;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: rgba(255, 107, 10, 0.73);
+    border-radius: 8px;
+    border: none;
 
 }
 
@@ -264,4 +274,77 @@ box-sizing: border-box;
     width: 100%;
     z-index: 2;
     pointer-events: none;
+}
+
+
+
+@media  screen and (max-width: 1170px) {
+    .wrapper {
+        width: 100%;
+    }
+
+
+    .main-page-text-container {
+        padding: 20px;
+    }
+
+    .main-page-title {
+        font-size: 44px;
+    }
+
+
+    .main-page-hello-text {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 785px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+         .main-page-text-container {
+            text-align: center;
+         }
+
+                 .goit-logo {
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                 }
+
+        .facts-descr {
+            width: 100%;
+        }
+
+                .facts-item {
+                    width: 450px;
+                }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+        .form-input {
+            width: 100%;
+        }
+
+
+                .gus-img {
+                    width: 100%;
+                }
+
+
+                                 .facts-item {
+                                    width: 100%;
+                                 }
 }
